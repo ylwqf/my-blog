@@ -1,29 +1,28 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <div className="space-y-8">
-      <section className="text-center py-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Welcome to My Blog
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          A place where I share my thoughts, experiences, and knowledge about technology, programming, and more.
-        </p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Latest Posts</h2>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {/* Placeholder for blog posts */}
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">
-              Coming Soon
-            </h3>
-            <p className="text-gray-600">
-              Stay tuned for my first blog post!
+    <main className="min-h-screen p-8">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-8">Welcome to My Blog</h1>
+        <div className="space-y-8">
+          <article className="bg-white p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold mb-4">Getting Started with Next.js</h2>
+            <p className="text-gray-600 mb-4">
+              Next.js is a powerful React framework that makes building full-stack web applications simple and efficient.
             </p>
-          </div>
+            <div className="text-sm text-gray-500">Posted on March 19, 2024</div>
+          </article>
+
+          <article className="bg-white p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold mb-4">The Power of Tailwind CSS</h2>
+            <p className="text-gray-600 mb-4">
+              Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without leaving your HTML.
+            </p>
+            <div className="text-sm text-gray-500">Posted on March 18, 2024</div>
+          </article>
         </div>
-      </section>
-    </div>
+      </div>
+    </main>
   );
 }
