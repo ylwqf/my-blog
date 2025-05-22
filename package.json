@@ -2,7 +2,7 @@
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/my-blog",
+  "homepage": "https://ylwqf.github.io/my-blog",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
