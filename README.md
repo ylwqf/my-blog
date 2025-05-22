@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Blog
+
+A personal blog built with Next.js and deployed on GitHub Pages.
+
+## Features
+
+- Modern and responsive design
+- Built with Next.js and Tailwind CSS
+- Deployed on GitHub Pages
+- Markdown support for blog posts
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## License
+
+MIT
 
 ## Getting Started
 
