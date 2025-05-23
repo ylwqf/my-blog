@@ -84,6 +84,18 @@
     background: rgba(255, 255, 255, 0.05);
 }
 
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover .nav-icon {
+    transform: scale(1.1);
+}
+
 /* 导航栏隐藏状态 */
 .sidebar.hidden {
     transform: translateX(-250px);
