@@ -1,0 +1,51 @@
+/* 响应式设计样式 */
+
+/* 平板设备 */
+@media (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chat-messages {
+        height: 300px;
+    }
+}
+
+/* 移动设备 */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .chat-messages {
+        height: 250px;
+    }
+
+    .chat-input {
+        flex-direction: column;
+    }
+
+    .chat-input button {
+        width: 100%;
+    }
+}
+
+/* 小屏幕设备 */
+@media (max-width: 480px) {
+    .blog-title {
+        font-size: 1.2em;
+    }
+
+    .ai-chat-section,
+    .portfolio-section {
+        padding: 15px;
+    }
+
+    .portfolio-item h3 {
+        font-size: 1.1em;
+    }
+}
